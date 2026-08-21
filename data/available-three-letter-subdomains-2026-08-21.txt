@@ -279,7 +279,6 @@ eqx
 eqy
 eqz
 esb
-ese
 esq
 etj
 etn
@@ -1564,7 +1563,6 @@ rgw
 rgz
 rhn
 rij
-rir
 riw
 riy
 rji
