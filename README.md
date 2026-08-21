@@ -1,27 +1,32 @@
 # Available workers.dev subdomains
 
-This repository saves a snapshot of short Cloudflare `workers.dev` account subdomains that were
-available on June 20, 2026.
+This repository saves dated snapshots of short Cloudflare `workers.dev` account subdomains.
 
 Cloudflare gives each account one configurable subdomain, such as `pfp.workers.dev`. Workers in that
 account then use addresses such as `my-worker.pfp.workers.dev`.
 
-## Results
+## Latest snapshot: 2026-08-21
 
-- All 676 two-letter names were unavailable.
 - All 17,576 three-letter names from `aaa` through `zzz` were checked.
-- 2,985 three-letter names were available at the time of the sweep.
-- `pfp` was selected after the sweep.
+- 2,623 three-letter names were available but not configured at the time of the sweep.
+- `pfp` is the configured account subdomain.
+- 0 candidates remained unresolved after retries.
+- Compared with June 20, 2,601 names remained available, 22 became available, and 384 were no
+  longer available.
 
 Availability changes. A name in this repository is not reserved and might no longer be available.
-For example, `pfp` appears in the list because it was available before it was selected.
+The configured name is included for context, but it is not an available choice.
 
 ## Files
 
 - [`data/available-three-letter-subdomains.txt`](data/available-three-letter-subdomains.txt) is the
-  clean list, with one account subdomain per line. Add `.workers.dev` to get the full account domain.
-- [`data/sweep-2026-06-20.md`](data/sweep-2026-06-20.md) is the full dated report. It groups the names
-  by first letter and includes the shortlist that led to `pfp`.
+  June 20, 2026 list, with one account subdomain per line.
+- [`data/sweep-2026-06-20.md`](data/sweep-2026-06-20.md) is the original dated report.
+- [`data/available-three-letter-subdomains-2026-08-21.txt`](data/available-three-letter-subdomains-2026-08-21.txt)
+  is the latest clean list, with one available label per line. Add `.workers.dev` to get the full
+  account domain.
+- [`data/sweep-2026-08-21.md`](data/sweep-2026-08-21.md) is the latest full report, including
+  per-prefix counts and every available label.
 
 ## How the list was made
 
@@ -37,8 +42,9 @@ The responses observed during the sweep used these Cloudflare error codes:
 - `10031`: unavailable
 - `10032`: available but not configured
 
-Temporary server errors were retried. The final check confirmed all 26 first-letter groups, 2,985
-unique available names, no duplicate names, and no unresolved requests.
+Temporary server errors, including rate-limit responses, were retried with throttling. The latest
+check confirmed all 26 first-letter groups, 2,623 unique available names, one configured name, no
+duplicate names, and no unresolved requests.
 
 Cloudflare documents how the account subdomain forms each Worker URL in its
 [`workers.dev` documentation](https://developers.cloudflare.com/workers/configuration/routing/workers-dev/).
