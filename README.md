@@ -5,6 +5,29 @@ This repository saves dated snapshots of short Cloudflare `workers.dev` account 
 Cloudflare gives each account one configurable subdomain, such as `pfp.workers.dev`. Workers in that
 account then use addresses such as `my-worker.pfp.workers.dev`.
 
+## Coolest available now
+
+This ranking is subjective. It favors mirrored spelling, repeated letters, and real or word-like
+sounds. No triple-letter label is available in the latest snapshot.
+
+| Rank | Label | Why it stands out |
+| ---: | --- | --- |
+| 1 | `rir` | Mirrored, repeats `r`, and sounds like "rear". |
+| 2 | `xrx` | Mirrored, repeats `x`, and has a strong visual shape. |
+| 3 | `yiy` | Mirrored, repeats `y`, and is easy to say letter by letter. |
+| 4 | `ese` | Mirrored, repeats `e`, and sounds like "essay". |
+| 5 | `uyu` | Mirrored, repeats `u`, and sounds like "oo-you". |
+| 6 | `zfz` | Mirrored, with a sharp repeated `z`. |
+| 7 | `zpz` | Mirrored and close in sound to "zips". |
+| 8 | `vkv` | A clean mirrored consonant pattern. |
+| 9 | `wrw` | Mirrored, with two wide `w` characters. |
+| 10 | `iyi` | Mirrored and face-like. |
+| 11 | `woe` | A short, memorable English word. |
+| 12 | `nub` | A real word that also works as a compact handle. |
+| 13 | `urn` | A recognizable three-letter English word. |
+| 14 | `fiv` | Short and close in sound to "five". |
+| 15 | `buv` | Compact and easy to pronounce. |
+
 ## Latest snapshot: 2026-08-21
 
 - All 17,576 three-letter names from `aaa` through `zzz` were checked.
